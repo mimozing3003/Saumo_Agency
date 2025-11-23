@@ -1,16 +1,91 @@
-# React + Vite
+# Saumo Agency
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A brutalist, interactive agency website built with React, GSAP, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**View the live site:** [https://saumo-agency.vercel.app/](https://saumo-agency.vercel.app/)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Hero Section** - Full-screen video background with animated typography
+- **Philosophy Section** - Immersive content with parallax video effects
+- **Work Section** - Horizontal scrolling project showcase
+- **Employee Section** - Interactive scroll-triggered team member profiles with circle-to-panoramic image animations
+- **Clients Section** - Mouse-reveal marquee effect showcasing client logos
+- **Brutalist Accordion Footer** - Expandable contact sections with background images and smooth transitions
+- **Custom Cursor** - Interactive cursor animation
+- **Loading Screen** - Animated entrance experience
+- **Full-Screen Menu** - Brutalist navigation overlay with hover effects
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 19** - UI framework
+- **Vite** - Build tool
+- **GSAP** - Animations and scroll triggers
+- **Tailwind CSS** - Styling
+- **Lucide React** - Icons
+- **React Router** - Navigation
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 16+ and npm
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/mimozing3003/Saumo_Agency.git
+
+# Navigate to project directory
+cd Saumo_Agency
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+The site will be available at `http://localhost:5173`
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+## 📁 Project Structure
+
+```
+src/
+├── components/        # Reusable components
+│   ├── Header.jsx
+│   ├── MenuOverlay.jsx
+│   ├── PhilosophySection.jsx
+│   ├── WorkSection.jsx
+│   ├── EmployeeSection.jsx
+│   ├── ClientsSection.jsx
+│   ├── FooterCTA.jsx
+│   └── ...
+├── pages/            # Page components
+│   └── Agence.jsx
+└── App.jsx           # Main app component
+```
+
+## 🎨 Design Highlights
+
+- **Brutalist Aesthetic** - Bold typography, high contrast, geometric layouts
+- **Interactive Animations** - GSAP-powered scroll triggers and hover effects
+- **Neon Accents** - Yellow (#CCFF00) highlights throughout
+- **Responsive Design** - Fully optimized for all screen sizes
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Built with ❤️ by Saumojit Roy
